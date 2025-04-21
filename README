@@ -1,0 +1,55 @@
+ GOROOT=C:\Users\\go\pkg\mod\golang.org\toolchain@v0.0.1-go1.24.2.windows-amd64 #gosetup
+ GOPATH=C:\Users\\go #gosetup
+ GONOPROXY= #gosetup
+ C:\Users\\go\pkg\mod\golang.org\toolchain@v0.0.1-go1.24.2.windows-amd64\bin\go.exe build -o C:\Users\\AppData\Local\JetBrains\GoLand2025.1\tmp\GoLand\___go_build_demo_double_callback.exe demo-double-callback #gosetup
+ C:\Users\\AppData\Local\JetBrains\GoLand2025.1\tmp\GoLand\___go_build_demo_double_callback.exe #gosetup
+ Model is starting...
+ info: ChatModel
+ Model is starting...
+ info: ChatModel
+ {
+  "Message": {
+   "role": "assistant",
+   "content": "好啊，我为你写一首古诗：\n\n春风拂面柳垂垂，  \n江水悠悠映朝晖。  \n花开满树香如梦，  \n燕舞云飞入画眉。  \n\n天高云淡望断秋，  \n古道西风残照愁。  \n心随梦远何处寻，  \n唯有青山伴孤舟。  \n\n这首诗描绘了春秋景色的对比，融合了自然景象与人心的情感。如果你有其他的要求或者风格偏好，欢迎告诉我！",
+   "response_meta": {
+    "finish_reason": "stop",
+    "usage": {
+     "prompt_tokens": 12,
+     "completion_tokens": 128,
+     "total_tokens": 140
+    }
+   }
+  },
+  "Config": {
+   "Model": "gpt-4o",
+   "MaxTokens": 0,
+   "Temperature": 0,
+   "TopP": 0,
+   "Stop": null
+  },
+  "TokenUsage": {
+   "PromptTokens": 12,
+   "CompletionTokens": 128,
+   "TotalTokens": 140
+  },
+  "Extra": null
+ }
+ {
+  "Message": {
+   "role": "assistant",
+   "content": "好啊，我为你写一首古诗：\n\n春风拂面柳垂垂，  \n江水悠悠映朝晖。  \n花开满树香如梦，  \n燕舞云飞入画眉。  \n\n天高云淡望断秋，  \n古道西风残照愁。  \n心随梦远何处寻，  \n唯有青山伴孤舟。  \n\n这首诗描绘了春秋景色的对比，融合了自然景象与人心的情感。如果你有其他的要求或者风格偏好，欢迎告诉我！",
+   "response_meta": {
+    "finish_reason": "stop",
+    "usage": {
+     "prompt_tokens": 12,
+     "completion_tokens": 128,
+     "total_tokens": 140
+    }
+   }
+  },
+  "Config": null,
+  "TokenUsage": null,
+  "Extra": null
+ }
+
+ Process finished with the exit code 0
